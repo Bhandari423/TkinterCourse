@@ -21,13 +21,13 @@ Robotics is an interdisciplinary branch of computer science and engineering.[1] 
 
 
 ##### IMPORTANT PACK OPTIONS #########
-#anchor - north-west(nw), north-east(ne)
+#anchor - north-west(nw), north-east(ne), se, sw
 #side - TOP, BOTTOM, LEFT, RIGHT
 #fill - if user maximize window, then content also gets filled in it
 #padding - padx, pady
 
 
 # title_label.pack(anchor="nw")
-# title_label.pack(side=BOTTOM, anchor="se", fill=X)    #for south you need to mention side
+# title_label.pack(side=BOTTOM, anchor="se", fill=X)        #for south you need to mention side
 title_label.pack(side=LEFT, fill=Y, padx=30, pady=32)
 root.mainloop()
